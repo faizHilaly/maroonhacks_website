@@ -8,12 +8,12 @@ const COMMANDS = [
     description: "Freestyle Fund",
   },
   {
-    command: "apply",
-    description: "Join the Team",
-  },
-  {
     command: "info",
     description: "Contact Info",
+  },
+  {
+    command: "apply",
+    description: "Join the Team",
   },
 ];
 

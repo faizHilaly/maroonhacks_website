@@ -49,6 +49,15 @@ const getContacts = async () => {
 };
 
 export const CONTENTS = {
+  ls: () =>
+    COMMANDS.map(
+      (command) => `<div style="display: flex; justify-content: space-between;">
+        <p style="font-size: 15px">${command.command}</p>
+        <p>${command.description}</p>
+      </div>`
+    ).join("") +
+    `<br />
+      <div class="command">Type one of the above to view. For eg. <span style="color: var(--secondary)">staff</span></div>`,
   help: () =>
     COMMANDS.map(
       (command) => `<div style="display: flex; justify-content: space-between;">

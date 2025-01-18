@@ -23,7 +23,7 @@ export default function Home() {
           MaroonHacks:$ <span className={styles.help}>just build things</span>
         </h1>
         <p>
-          Type <span style={{ color: "#a5dfee" }}>help</span> to start
+          Type <span style={{ color: "#a5dfee" }}>ls</span> to start
         </p>
         <Terminal />
       </div>

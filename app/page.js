@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <div className={styles.container}>
         <h1>
-          MaroonHacks:$ <span className={styles.help}>just build things</span>
+          MaroonHacks:$ <span className={styles.help}>./just_build_things</span>
         </h1>
         <p>
           Type <span style={{ color: "#a5dfee" }}>ls</span> to start
